@@ -39,7 +39,7 @@ func App() *buffalo.App {
 		}
 
 		app.GET("/", HomeHandler)
-		app.GET("/scrapers/indeed/jobs", ScrapeHandler)
+		app.GET("/scrapers/{provider}/jobs", ScrapeHandler)
 		app.GET("/scrapers", GetAllScrapersHandler)
 
 	}
