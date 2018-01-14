@@ -23,3 +23,8 @@ func ScrapeHandler(c buffalo.Context) error {
 func GetAllScrapersHandler(c buffalo.Context) error {
 	return c.Render(200, r.JSON(goscraper.GetConfigs()))
 }
+
+// GetScraperHandler is a handler for a scraper
+func GetScraperHandler(c buffalo.Context) error {
+	return c.Render(200, r.JSON(goscraper.GetConfig(c.Param("provider"))))
+}
