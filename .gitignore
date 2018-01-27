@@ -8,6 +8,6 @@ node_modules/
 .sass-cache/
 *-packr.go
 public/assets/
-scraper_api2
+goscraper_api
 .vscode/
 .grifter/

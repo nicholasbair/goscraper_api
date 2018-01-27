@@ -1,7 +1,7 @@
 package grifts
 
 import (
-	"scraper_api2/actions"
+	"goscraper_api/actions"
 
 	"github.com/gobuffalo/buffalo"
 )

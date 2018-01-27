@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"scraper_api2/actions"
+	"goscraper_api/actions"
 )
 
 func main() {

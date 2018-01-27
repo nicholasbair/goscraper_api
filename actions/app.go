@@ -23,7 +23,7 @@ func App() *buffalo.App {
 		app = buffalo.New(buffalo.Options{
 			Env:          ENV,
 			SessionStore: sessions.Null{},
-			SessionName:  "_scraper_api2_session",
+			SessionName:  "_goscraper_api_session",
 		})
 		// Automatically redirect to SSL
 		app.Use(ssl.ForceSSL(secure.Options{
